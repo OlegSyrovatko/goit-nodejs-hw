@@ -1,10 +1,10 @@
-const fs = require('fs').promises;
-const path = require('path');
-// import fs from 'fs';
-// import path from 'path';
 
-const contactsPath = require("./db/contacts.json");
-console.log(contactsPath);
+
+const contacts = require('./db/contacts.json');
+const fs = require('fs').promises;
+
+    console.log(contacts);
+
 
 
 // TODO: задокументувати кожну функцію
