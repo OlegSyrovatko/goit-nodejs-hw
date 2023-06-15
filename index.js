@@ -9,7 +9,7 @@ const {
 
 
 
-listContacts();
+
 
 // Get contact by ID
 // getContactById('10');
@@ -18,4 +18,5 @@ listContacts();
 // removeContact('10');
 
 // Add a new contact
-// addContact('Oleg', 'oleg@example.com', '(123) 999-9999');
+addContact('333', '3@example.com', '(123) 333-333');
+// listContacts();
