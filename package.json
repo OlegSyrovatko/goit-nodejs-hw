@@ -9,6 +9,7 @@
     "start:dev": "node contacts",
     "start:devcontacts": "nodemon contacts.js"
   },
+
   "engines": {
     "npm": "8.19.2",
     "node": "v18.12.1"
@@ -18,7 +19,10 @@
     "url": "git+https://github.com/OlegSyrovatko/goit-nodejs-hw.git"
   },
   "keywords": [],
-  "author": "",
+      "author": {
+    "name": "Oleh Syrovatko",
+    "email": "sirov@ukr.net"
+  }, 
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/OlegSyrovatko/goit-nodejs-hw/issues"
