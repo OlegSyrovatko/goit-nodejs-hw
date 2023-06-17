@@ -1,0 +1,38 @@
+{
+  "name": "goit-nodejs-hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "node contacts",
+    "start:devcontacts": "nodemon contacts.js"
+  },
+
+  "engines": {
+    "npm": "8.19.2",
+    "node": "v18.12.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlegSyrovatko/goit-nodejs-hw.git"
+  },
+  "keywords": [],
+      "author": {
+    "name": "Oleh Syrovatko",
+    "email": "sirov@ukr.net"
+  }, 
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlegSyrovatko/goit-nodejs-hw/issues"
+  },
+  "homepage": "https://github.com/OlegSyrovatko/goit-nodejs-hw#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "nanoid": "^3.3.4",
+    "yargs": "^17.7.2"
+  }
+}
